@@ -28,4 +28,20 @@ function deleteCharacter() {
     }
 }
 
+function addScientificFunction(funcName) {
+    let inputElement = document.getElementById('output');
+    let currentValue = inputElement.value;
+    
+    // Vérifiez si l'expression est vide ou déjà terminée
+    if (currentValue === '' || currentValue.endsWith('+') || currentValue.endsWith('-') ||
+        currentValue.endsWith('*') || currentValue.endsWith('/')) {
+        currentValue += funcName + '(';
+    } else {
+        currentValue += '*' + funcName + '(';
+    }
+    
+    inputElement.value = currentValue;
+}
+
+
   

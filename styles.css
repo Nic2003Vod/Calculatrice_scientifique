@@ -13,12 +13,12 @@ body{
 #main{
     text-align: center;
     align-items: center;
-    height: 500px;
+    height: 550px;
     width: 500;
     background-color: #1C1C1C;
     border: #110e0e solid 1px;
     border-radius: 5%;
-    padding: 20px;
+    padding: 25px;
     padding-top: 25px;
     bottom: -10px;
 }
@@ -33,6 +33,9 @@ body{
     background-color: #1C1C1C;
     border: none;
     color: #FFFFFF;
+}
+td{
+    padding: 5px;
 }
 td button{
     width: 50px;
